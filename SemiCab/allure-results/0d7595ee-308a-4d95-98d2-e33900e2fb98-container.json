@@ -1,0 +1,1 @@
+{"uuid":"0d7595ee-308a-4d95-98d2-e33900e2fb98","name":"Default test","children":["d1fb97e8-c99f-4c2d-a6d2-9ed9d6e04603"],"befores":[{"name":"configBT","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1639034643640,"stop":1639034643640}],"afters":[],"links":[],"start":1639034643634,"stop":1639034691348}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Scripts.ValidateStatusDeparture">
+        <methods>
+          <include name="configBT"/>
+          <include name="configBM"/>
+          <include name="configBC"/>
+          <include name="ValidateDepartureStatus"/>
+          <include name="conficAC"/>
+        </methods>
+      </class> <!-- Scripts.ValidateStatusDeparture -->
+      <class name="Scripts.ValidateEstimatedTimeOfArrival">
+        <methods>
+          <include name="configBT"/>
+          <include name="configBM"/>
+          <include name="configBC"/>
+          <include name="ValidateEstimatedArrival"/>
+          <include name="conficAC"/>
+        </methods>
+      </class> <!-- Scripts.ValidateEstimatedTimeOfArrival -->
+      <class name="Scripts.ValidateArrivedStatusEvent">
+        <methods>
+          <include name="configBT"/>
+          <include name="configBM"/>
+          <include name="ValidateArrivedStatus"/>
+          <include name="configBC"/>
+          <include name="conficAC"/>
+        </methods>
+      </class> <!-- Scripts.ValidateArrivedStatusEvent -->
+      <class name="Scripts.ValidateStatusEvents">
+        <methods>
+          <include name="configBT"/>
+          <include name="configBM"/>
+          <include name="configBC"/>
+          <include name="ValidateAppointment"/>
+          <include name="conficAC"/>
+        </methods>
+      </class> <!-- Scripts.ValidateStatusEvents -->
+      <class name="Scripts.ValidateCustomerCancelInvoice">
+        <methods>
+          <include name="configBT"/>
+          <include name="configBM"/>
+          <include name="configBC"/>
+          <include name="validateInvoiceCreation"/>
+          <include name="conficAC"/>
+        </methods>
+      </class> <!-- Scripts.ValidateCustomerCancelInvoice -->
+      <class name="Scripts.ValidateLoadingAndUnloading">
+        <methods>
+          <include name="ValidateLoadingAndUnloadingEvent"/>
+          <include name="configBT"/>
+          <include name="configBM"/>
+          <include name="configBC"/>
+          <include name="conficAC"/>
+        </methods>
+      </class> <!-- Scripts.ValidateLoadingAndUnloading -->
+      <class name="Scripts.ValidateEstimatedTimeOfDeparture">
+        <methods>
+          <include name="configBT"/>
+          <include name="configBM"/>
+          <include name="ValidateEstimatedDeparture"/>
+          <include name="configBC"/>
+          <include name="conficAC"/>
+        </methods>
+      </class> <!-- Scripts.ValidateEstimatedTimeOfDeparture -->
+      <class name="Scripts.ValidateCarrierInvoice">
+        <methods>
+          <include name="configBT"/>
+          <include name="configBM"/>
+          <include name="configBC"/>
+          <include name="validateInvoiceCreation"/>
+          <include name="conficAC"/>
+        </methods>
+      </class> <!-- Scripts.ValidateCarrierInvoice -->
+      <class name="Scripts.CarrierFrieghtcharges">
+        <methods>
+          <include name="configBT"/>
+          <include name="configBM"/>
+          <include name="validateInvoiceCreation"/>
+          <include name="configBC"/>
+          <include name="conficAC"/>
+        </methods>
+      </class> <!-- Scripts.CarrierFrieghtcharges -->
+      <class name="Scripts.FreightInvoiceEdit">
+        <methods>
+          <include name="configBT"/>
+          <include name="configBM"/>
+          <include name="validateInvoiceCreation"/>
+          <include name="configBC"/>
+          <include name="conficAC"/>
+        </methods>
+      </class> <!-- Scripts.FreightInvoiceEdit -->
+      <class name="Scripts.ValidateCustomerFeightCharge">
+        <methods>
+          <include name="configBT"/>
+          <include name="configBM"/>
+          <include name="configBC"/>
+          <include name="validateInvoiceCreation"/>
+          <include name="conficAC"/>
+        </methods>
+      </class> <!-- Scripts.ValidateCustomerFeightCharge -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
